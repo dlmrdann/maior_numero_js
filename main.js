@@ -13,11 +13,10 @@ function verificar(){
     var num2 = Number(tnum2.value)
     var resp  = document.getElementById('res')
 
-if (num1 > num2){
-    resp.innerHTML = `O valor é INVÁLIDO`
-
-} else{
-    resp.innerHTML = 'O valor é VÁLIDO'
-
+if (num2 > num1){
+resp.innerHTML = `O valor é Válido`
     
+} else{
+    resp.innerHTML = 'O valor é Inválido' 
+
 }};
